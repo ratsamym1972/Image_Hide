@@ -1,0 +1,26 @@
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+div{width: 300px; text-align: center;}
+#title, #handle, #footer{
+  background-color: blue, color:white;
+  font-weight:bold;
+}
+
+#handle{
+  display: inline-block; width:20px; float:left;
+  background-color: black; cursor: pointer;
+}
+#footer{
+  font-size:10px; background-color: black;
+  margin-top:-5px
+}
+
+#photo{
+  padding: auto;
+  margin: 100px;
+}
